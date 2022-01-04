@@ -1,0 +1,42 @@
+/* p.error {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+p.success {
+    color: #4fdb4f;
+}
+p.success.feedback {
+    font-size: 20px;
+    font-style: italic;
+    border: 5px #4fdb4f dotted;
+}
+#content {
+    background-color: #ebebeb;
+    padding: 20px;
+}
+
+a[href*="google"] {
+    background-color: red;
+    border: 5px dotted black;
+}
+
+a[href$="apple.com"] {
+    background-color: #4fdb4f;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: capitalize;
+} */
+
+div {
+    font-weight: bold;
+    color: lightcoral;
+    border: 1px solid black;
+    margin: 30px;
+}
+
+p {
+    border: inherit;
+    margin: inherit;
+    color: blueviolet;
+}

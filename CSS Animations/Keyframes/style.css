@@ -69,7 +69,7 @@ html, body {
 }
 .cloud:nth-child(2) {
     top: 0;
-    animation: wind 50s 2s linear infinite reverse;
+    animation: wind 50s linear infinite reverse;
 }
 
 @keyframes drive {

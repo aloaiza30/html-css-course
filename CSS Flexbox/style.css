@@ -22,20 +22,20 @@ body {
 .box {
     height: 100px;
     width: 200px;
-    flex-grow: 1;
+    flex: 1 0 200px;
 }
 
 .one {
     background: red;
-    flex-shrink: 1;
+    flex-basis: 100px;
 }
 
 .two {
     background: blue;
-    flex-shrink: 2;
+    flex-basis: 200px;
 }
 
 .three {
     background: green;
-    flex-shrink: 1;
+    flex-basis: 300px;
 }
